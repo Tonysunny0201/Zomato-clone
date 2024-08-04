@@ -1,0 +1,342 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 10%;
+    /* position: fixed; */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px); */
+    z-index: 1;
+
+}
+
+.logo {
+    font-size: 1.0rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/* 15/7/24 */
+#check {
+    display: none;
+}
+
+.icons {
+    font-size: 2.4rem;
+    color: white;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+/*  */
+
+
+.navbar a {
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+/* .navbar a:hover  {
+    color: red;
+} */
+
+
+/* <!-- home --> */
+
+#home {
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-size: cover;
+    height: 70vh;
+
+}
+
+.contents {
+    padding-top: 200px;
+}
+
+.homeheading {
+    /* padding-top: 200px; */
+    font-size: 100px;
+    font-weight: 550;
+    color: white;
+}
+
+.head {
+    text-align: center;
+    padding-top: 140px;
+}
+
+.homepara {
+    font-size: 20px;
+}
+
+.logo2 {
+    width: 20vw;
+}
+
+.head h3 {
+    color: white;
+}
+
+.search {
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+    margin-left: 320px;
+
+}
+
+.search input {
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search p {
+    color: gray;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.search i:first-child {
+    font-size: 20px;
+    color: rgb(252, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search i {
+    color: gray;
+    padding-left: 20px;
+}
+
+/*   <!-- part-2 / 2 cards --> */
+#part2 {
+    padding: 40px;
+}
+
+.parentcard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* border-radius: 20px; */
+}
+
+.childcard {
+    border: lightgray solid 1px;
+    height: 40%;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.childcard img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+}
+
+.childcard h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* collections */
+#collections {
+    padding: 20px;
+}
+
+.collection-head {
+    text-align: center;
+    margin-left: -830px;
+}
+
+.collhead2 {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 100px; */
+}
+
+.collpara a {
+    text-decoration: none;
+    color: rgb(252, 119, 119);
+}
+
+.collcards {
+    padding-top: 30px;
+}
+
+.collcards {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+    gap: 20px;
+}
+
+.child4card img {
+    width: 250px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.child4card h4 {
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 10px;
+    color: white;
+}
+
+.child4card p {
+    /* margin-top: -90px; */
+    margin-left: 10px;
+    color: white;
+}
+
+/*   <!-- Popular localities in and around Kochi --> */
+
+/* #plinak{
+    padding-left: 300px;
+} */
+.plinakheading h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.plinakheading b {
+    font-weight: 600;
+}
+
+.sec-4 {
+    padding-top: 10px;
+    /* padding: 30px; */
+    /* margin-left: 90px; */
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+
+.sec4grid {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 1 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sec4grid div {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+
+}
+.sec4grid div span {
+    color: rgb(65, 64, 64);
+    font-size: 1.0rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*   <!--Get the Zomato app  --> */
+
+#gtza{
+    padding-top: 90px;
+}
+.gtzaparent{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(252, 239, 119, 0.077);
+}
+.gtzaform img{
+    width: 300px;
+}
+.gtzaform{
+    padding: 50px;
+}
+.gtzaform button{
+    color: white;
+    background-color: rgb(211, 43, 10);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.gtzaimg2 img{
+    width: 180px;    
+}
+
+/* <!-- Explore options near me --> */
+#explore{
+    padding: 120px;
+}
+
+/* <!-- footer --> */
+
+#zmtfooter{
+    padding-top: 20px;
+    background-color: rgba(182, 180, 163, 0.077);
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.fparenthead{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fchild img{
+    width: 20px;
+}
+.fchild{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.fchild2{
+    border: 1px solid;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.fpart2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fpart2child img{
+    width: 180px;
+}
+
+.fpart3para p{
+    padding: 0 120px;
+    font-weight: 300;
+}
+

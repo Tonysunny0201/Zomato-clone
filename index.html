@@ -1,0 +1,283 @@
+<!-- By Tony kuttan -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato - clone</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- box icons cdn link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- navbar 1 -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-mobile"></i> Get the App</a>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="icons">
+            <!-- menu icon -->
+            <i id="menu" class='bx bx-menu '></i>
+             <!-- close icon -->
+             <i id="cancel" class='bx bx-x' ></i>
+        </label>
+        <nav class="navbar">
+            <a href="#">Investor Reltions</a>
+            <a href="#">Add restaurant</a>
+            <a href="#">Log in</a>
+            <a href="#">Sign up</a>
+        </nav>
+    </header>
+
+    <!-- home -->
+    <section id="home">
+        <div class="head"> 
+            <!-- <img class="logo2" src="./Images/images-removebg-preview.png" alt=""> -->
+            <h1 class="homeheading">ZOMATO</h1>
+            <h3>Discover the best food & drinks in Kochi  </h3>
+            <div class="search">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Kacheripady, Kochi</p>
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+            </div>
+        </div>
+    </section>
+    <!-- part 2 -->
+    <section id="part2">
+        <div class="parentcard">
+            <div class="childcard">
+                <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+                <h3>Order Online</h3>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+            <div class="childcard">
+                <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+                <h3>Dining</h3>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+    </section>
+    <!-- Collections -->
+    <section id="#collections">
+        <div class="collection-head">
+            <h1>Collections</h1>
+        </div>
+        <div class="collhead2">
+            <div class="collpara">Explore curated lists of top restaurants, cafes, pubs, and bars in Kochi, based on trends
+            </div>
+            <div class="collpara"><a href="">All collections in Kochi <i class="fa-solid fa-play"></i></a></div>
+        </div>
+        <div class="collcards">
+            <div class="child4card">
+                <img src="https://b.zmtcdn.com/data/collections/75ca020d74c31670b0e58569c5facef0_1681538667.png?fit=around|562.5:360&crop=562.5:360;*,*" alt="">
+                <h4>8 Places for Art Lovers</h4>
+                <p>8 Places <i class="fa-solid fa-play"></i></p>
+            </div>
+            <div class="child4card">
+                <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/01/14174308/best-cafes-in-Delhi-3.jpg" alt="">
+                <h4>14 Great Cafes</h4>
+                <p>13 Places <i class="fa-solid fa-play"></i></p>
+            </div>
+            <div class="child4card">
+                <img src="https://b.zmtcdn.com/data/collections/34aa4d41b764989b6b832e633b1bb67c_1676575122.jpg" alt="">
+                <h4>6 Places for Authenic Ku..</h4>
+                <p>5 Places <i class="fa-solid fa-play"></i></p>
+            </div>
+            <div class="child4card">
+                <img src="https://b.zmtcdn.com/data/collections/55991e4edb223de19293b3462fd78ba0_1692120499.jpg?fit=around|562.5:360&crop=562.5:360;*,*" alt="">
+                <h4>5 Must-visit Legendary Pl..</h4>
+                <p>5 Places <i class="fa-solid fa-play"></i></p>
+            </div>
+        </div>
+    </section> 
+    <!-- Popular localities in and around Kochi -->
+    <section id="plinak">
+        <div class="plinakheading">
+            <h1>Popular localities in and around <b>Kochi</b></h1>
+        </div>
+        <div class="sec-4">
+            <div class="sec4grid">
+                <div><span>Kakkanad <br>499 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+
+            <div class="sec4grid">
+                <div><span>Edappally <br>358 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>Fort Kochi <br>133 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>Panampilly Nagar <br>111 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>MG Road <br>98 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>Kacheripady <br>120 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>Palarivattom <br>166 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>vyttila <br>133 places</span><i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sec4grid">
+                <div><span>see more</span><i class="fa-solid fa-v"></i></div>
+            </div>
+        </div>
+        
+    </section>
+     <!--Get the Zomato app  -->
+    <section id="gtza">
+        <!-- <h1>Get the Zomato app</h1> -->
+        <div class="gtzaparent">
+            <div class="gtzaform">
+                <img src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" alt="app-in-mobile!">
+            </div>
+            <div class="gtzaform">
+                <h1>Get the Zomato app</h1>
+                <p>We will send you a link, open it on your phone to download the app</p>
+                <label for="">
+                    <input type="radio" label="Email" name="radio" id="" checked value="email">
+                    <span>Email</span>
+                </label>
+                <label for="">
+                    <input type="radio" label="phone" name="radio" id=""  value="mobile">
+                    <span>Phone</span>
+                </label>
+                <section class="gtzaimg2">
+                    <input type="text" name="formtexts" id="" placeholder="Email">
+                    <span></span>
+                    <button>Share App Link</button>
+                    <p>Download app from</p>
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="Google Play">
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="App Store">
+                </section>
+            </div>
+        </div>
+
+    </section>
+    <!-- Explore options near me -->
+    <section id="explore">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Popular cuisines near me
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Arabian food near me * Bakery food near me * Beverages food near me * Biryani food near me * Burger food near me * Chinese food near me * Continental food near me * Desserts food near me * Ice Cream food near me * Juices food near me * Kerala food near me * North Indian food near me * Pizza food near me * Sandwich food near me * Seafood food near me * Shake food near me * Shawarma food near me * Sichuan food near me * South Indian food near me * Street food near me</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Popular restaurant types near me
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bakeries near meBars near me * Beverage Shops near me * Cafés near me *Casual Dining near me * Cocktail Bars near me * Confectioneries near me * Dessert Parlors near me * Dhabas near me * Fine Dining near me * Food Courts near me * Food Trucks near me * Kiosks near me * Lounges near me * Paan Shop near me * Quick Bites near me * Sweet Shops near me</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Top Restaurant Chains
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Burger King  KFC  McDonald's  Pizza Hut  WOW! Momo</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Cities We Deliver To
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Delhi NCR, Kolkata, Mumbai, Bengaluru, Pune, Hyderabad, Chennai, Lucknow, Kochi, Jaipur, etc... <a href="#">All delivery cities</a></div>
+                </div>
+              </div>
+          </div>
+    </section>
+    <!-- footer -->
+    <footer id="zmtfooter">
+        <!-- Footer-part-1 -->
+        <div class="fparenthead">
+            <div class="fchild"><h2><b><i>Zomato</i></b></h2></div>
+            <div class="fchild">
+                <div class="fchild2"><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-v"></i></div>
+
+                <div class="fchild2"><img src="https://t3.ftcdn.net/jpg/06/12/34/84/360_F_612348476_k3i3brMUOo3N9Wk3yoceMHqZ8w4jpFqu.jpg" alt=""> India <i class="fa-solid fa-v"></i></div>
+            </div>
+        </div>
+        
+        <!-- Footer-part-2 -->
+        <div class="fpart2">
+            <div class="fpart2child">
+                <h3>About Zomato</h3>
+                <p>Who We Are</p>
+                <p>Blog</p>
+                <p>Work With Us</p>
+                <p>Investor Relations</p>
+                <p>Report Fraud</p>
+                <p>Press Kit</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="fpart2child">
+                <h3>Zomaverse</h3>
+                <p>Zomato</p>
+                <p>Blinkit</p>
+                <p>Feeding India</p>
+                <p>Hyperpure</p>
+                <p>Zomaland</p>
+                <p>Weather Union</p>
+            </div>
+            <div class="fpart2child">
+                <h3>For Restaurants</h3>
+                <p>Partner with us</p>
+                <p>Apps for you</p>
+            </div>
+            <div class="fpart2child">
+                <h3>Learn More</h3>
+                <p>Privacy</p>
+                <p>Security</p>
+                <p>Terms</p>
+                <p>Sitemap</p>
+            </div>
+            <div class="fpart2child">
+                <h3>Social links</h3>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <br><br>
+                <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="Google Play">
+                <br><br>
+                <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="App Store">
+            </div>
+            
+        </div>
+
+        <!-- Footer-part-3 -->
+        <hr>
+        <div class="fpart3para">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+<!-- bootstrap cdn script  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</html>
